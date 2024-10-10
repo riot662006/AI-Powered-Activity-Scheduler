@@ -6,6 +6,8 @@ export default async function Home() {
   const isConnected = await testDatabaseConnection();
 
   return (
-    <main></main>
+    <main>
+      <p>{isConnected ? "Connected" : "Not Connected"}</p>
+    </main>
   );
 }
