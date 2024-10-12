@@ -1,7 +1,7 @@
 import Task from "@/lib/Task";
 
 interface TaskListProps {
-    tasks: Task[];
+  tasks: Task[];
 }
 
 const TaskTable: React.FC<{ tasks: Task[] }> = ({ tasks }) => {
